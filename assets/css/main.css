@@ -2320,6 +2320,15 @@ input, select, textarea {
 				text-transform: none !important;
 			}
 
+			.icon.major.skills:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: Devicon;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
 			.icon.major:before {
 				font-size: 4em;
 				line-height: 1em;
@@ -2882,7 +2891,7 @@ input, select, textarea {
 			}
 
 			.main.style2 .icon.major {
-				color: #ffffff;
+				/* color: #ffffff; */
 			}
 
 /* Header */
